@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.form-item {
+  flex-grow: 1;
+}
+
+.form-item label {
+  color: #fff;
+  display: block;
+  font-size: calc(10px + 1vw);
+  margin-bottom: 0.3rem;
+}
+
+.form-item input {
+  width: 90%;
+  height: 2rem;
+}

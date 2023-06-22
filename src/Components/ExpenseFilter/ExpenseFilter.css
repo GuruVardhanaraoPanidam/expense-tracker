@@ -1,0 +1,27 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-select-box {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  font-size: 1vw;
+}
+
+.filter-select-box label {
+  font-weight: bold;
+  font-size: 2.2vh;
+}
+
+.filter-select-box select {
+  min-width: 5vw;
+  width: 10vw;
+  min-height: 2vh;
+  height: 3vh;
+}
+
+.chart-container {
+  display: flex;
+}

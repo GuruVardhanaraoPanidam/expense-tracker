@@ -1,0 +1,25 @@
+.bar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.max-quantity-container {
+  display: flex;
+  height: 200px;
+  width: 30px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.actual_quantity {
+  width: 100%;
+  background-color: blueviolet;
+  align-self: end;
+  transition: height 500ms;
+  transition-delay: 800ms;
+  transition-timing-function: ease;
+}

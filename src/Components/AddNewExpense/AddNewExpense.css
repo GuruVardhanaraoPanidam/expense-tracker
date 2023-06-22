@@ -1,0 +1,17 @@
+.add-expense-container {
+  width: 100%;
+  background-color: blueviolet;
+  margin-bottom: 1rem;
+}
+
+.add-expense-btn {
+  width: auto;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #008cba;
+  color: #fff;
+  font-size: calc(10px + 1vw);
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+}
